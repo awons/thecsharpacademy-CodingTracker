@@ -2,11 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTrackerApp", "CodingTrackerApp\CodingTrackerApp.csproj", "{5FF2A91C-6C77-45D0-8641-6D05043AE887}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTrackerAppTests", "CodingTrackerAppTests\CodingTrackerAppTests.csproj", "{A12152A3-A5C5-4761-A813-4082AD290CF2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTrackerLib", "CodingTrackerLib\CodingTrackerLib.csproj", "{458FFED3-465C-400C-8FC3-0FF71136D40D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingTrackerLibTests", "CodingTrackerLibTests\CodingTrackerLibTests.csproj", "{01481302-9AD8-4AC9-8BE2-E3A328E1FAD6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,17 +14,9 @@ Global
 		{5FF2A91C-6C77-45D0-8641-6D05043AE887}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FF2A91C-6C77-45D0-8641-6D05043AE887}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FF2A91C-6C77-45D0-8641-6D05043AE887}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A12152A3-A5C5-4761-A813-4082AD290CF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A12152A3-A5C5-4761-A813-4082AD290CF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A12152A3-A5C5-4761-A813-4082AD290CF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A12152A3-A5C5-4761-A813-4082AD290CF2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{458FFED3-465C-400C-8FC3-0FF71136D40D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{458FFED3-465C-400C-8FC3-0FF71136D40D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{458FFED3-465C-400C-8FC3-0FF71136D40D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{458FFED3-465C-400C-8FC3-0FF71136D40D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{01481302-9AD8-4AC9-8BE2-E3A328E1FAD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{01481302-9AD8-4AC9-8BE2-E3A328E1FAD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{01481302-9AD8-4AC9-8BE2-E3A328E1FAD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{01481302-9AD8-4AC9-8BE2-E3A328E1FAD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
