@@ -6,7 +6,7 @@ internal interface ITrackingRepository
 {
     public void AddTracking(TrackingDto tracking);
 
-    public void UpdateTracking(TrackingDto tracking);
+    public void UpdateTracking(Tracking tracking);
 
     public void DeleteTracking(long id);
 

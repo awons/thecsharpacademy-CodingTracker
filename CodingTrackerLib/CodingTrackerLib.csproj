@@ -7,7 +7,14 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Folder Include="Modules\CodingGoal\"/>
+        <PackageReference Include="Dapper" Version="2.1.35"/>
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.1"/>
+        <PackageReference Include="System.Data.SQLite.Core" Version="1.0.119"/>
     </ItemGroup>
 
+    <ItemGroup>
+        <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleTo">
+            <_Parameter1>CodingTrackerLib.Tests</_Parameter1>
+        </AssemblyAttribute>
+    </ItemGroup>
 </Project>

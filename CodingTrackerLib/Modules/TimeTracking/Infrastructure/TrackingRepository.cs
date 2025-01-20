@@ -1,15 +1,16 @@
+using System.Data;
 using CodingTrackerLib.Modules.TimeTracking.Domain;
 
 namespace CodingTrackerLib.Modules.TimeTracking.Infrastructure;
 
-internal class TrackingRepository : ITrackingRepository
+internal class TrackingRepository(IDbConnection connection) : ITrackingRepository
 {
     public void AddTracking(TrackingDto tracking)
     {
         throw new NotImplementedException();
     }
 
-    public void UpdateTracking(TrackingDto tracking)
+    public void UpdateTracking(Tracking tracking)
     {
         throw new NotImplementedException();
     }
